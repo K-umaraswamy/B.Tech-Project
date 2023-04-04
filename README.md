@@ -1,0 +1,7 @@
+We have studied the  research paper published on incremental sheet metal forming by Zhidong Chang and his team. They have given the complete analytical model to calculate the forming force in several typical incremental sheet metal forming. And they validated it with experimental results.
+
+Based on above research paper I developed a C++ code to calculate different forming forces and my friend converted this code to python.
+
+The following code is in C++ programing language calculates the forming force required for two different sheet forming processes, namely Single Pass Incremental Forming (SPIF), Multi Pass Incremental Sheet Forming (MPISF) and Incremental Hole Flanging (IHF), based on analytical equations. The user inputs the necessary parameters such as tool radius, sheet thickness, step depth of the tool, wall angle of the part, yield stress of the workpiece material, and constants 'K' and 'n' to calculate equivalent stress.The code uses the formulae and assumptions derived from research studies to estimate the forming force required for SPIF and IHF. The output shows the calculated forming force in N (newtons) for the selected process.
+
+Note that the code is dependent on the input parameters, and the calculated forming force may not be accurate for all sheet forming scenarios. It is essential to understand the assumptions and limitations of the analytical models before applying them to a real-world scenario.
